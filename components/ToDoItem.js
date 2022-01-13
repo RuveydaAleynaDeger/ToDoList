@@ -69,6 +69,7 @@ export default ({
                     {...props}
                 />
             </View>
+            
             <TouchableOpacity onPress={onDelete}>
                 <Text style={[styles.icon, { color: Colors.red }]}>X</Text>
             </TouchableOpacity>
